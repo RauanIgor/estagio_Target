@@ -1,0 +1,44 @@
+Dados:
+dtotal = distância total entre as duas cidades = 100km/h;
+vcarro = velocidade do carro = 110km;
+vcaminhao = velocidade do caminhao = 80km/h
+atrasoCaminhao = 10min;
+tcruzamento = tempo que leva para os dois veículos se cruzarem = dtotal / (vcarro + vcaminhao)
+
+temos que:
+distancia = velocidade * tempo;
+
+primeiro vamos calcular o tcruzamento:
+dtotal = (vcarro + vcaminhao) * tcruzamento
+=> 100km = (110km/h + 80km/h) * tcruzamento
+=> tcruzamento = 100km / (190km/h)
+=> tcruzamento = 0,5263h
+
+Calcular a distância percorrida por cada veículo antes de se cruzarem:
+distanciaCarro = 110km/h * 0,5263h = 57,9km
+distanciaCaminhao = 80km/h * 0,5263h = 42,1km
+
+Determinar a distância de cada veículo para Ribeirão Preto:
+distanciaCarro = 57,9km
+distanciaCaminhao = (100km - 42,1km) = 57,9km
+
+Considerar o atraso do caminhão nos pedágios:
+distanciaAtraso = (80 km/h x atrasoCaminhao) / 60 minutos
+distanciaAtraso = (80 km/h x 10) / 60 minutos = 13,33 km
+
+Possível Resultado:
+O carro estará a 57,9km de Ribeirão Preto, pois foi a distancia que ele pecorreu até cruzar com o caminhão;
+Já o caminhão estará a (57,9km + 13,3km) de Ribeirão Preto, pois teve que parar 10 minutos,
+ou seja, o caminhão estará a 71,2km de distância. Isso não é possível, como eles estão medindo a distâcia de um mesmo ponto a outro,
+sem mudar o trajeto ou sofre desvios, a distâcia será a mesma, porém o caminhão precisa parar 10min, e vai demorar mais para chegar.
+
+PORTANTO, no momento em que os carros se cruzam a distância que ambos vão pecorrer até Ribeirão Preto é EQUIVALENTE,
+o que vai alterar é o tempo que ambos vai levar para chegar ao destino.
+
+
+
+
+
+
+
+
