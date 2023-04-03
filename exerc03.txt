@@ -1,0 +1,59 @@
+Descubra a lógica e complete o próximo elemento:
+
+a) 1, 3, 5, 7, ___, 
+podemos encontrar o próximo elemento somando o anterior + 2,
+ou seja, tomamos que:
+a = número anterior;
+p = próximo número da sequência;
+temos que:
+p = a + 2;
+p = 7 + 2 = 9; Portanto, o próximo elemento da sequência 1, 3, 5, 7, ___, é igual a 9;
+
+
+b) 2, 4, 8, 16, 32, 64, ____;
+Pode-se observar que a sequência representa os números formados por 2^n;
+como temos 6 elementos na sequência até o momento, o próximo elemento será
+igual a 2^7 = 128;
+2, 4, 8, 16, 32, 64, 128;
+
+
+c) 0, 1, 4, 9, 16, 25, 36, ____;
+Pode-se observar que a sequência representa os números formados por n^2;
+Também, podemos identificar os elementos como quadrados perfeitos; 
+Como a sequência se inicia com o 0, temos que o próximo quadrado perfeito da sequência
+será o total de elementos da sequência que é igual 7 elevando a 2.
+Portanto, o próximo elemento da sequência 0, 1, 4, 9, 16, 25, 36, ____ é igual
+a 7^2 = 49;
+
+
+d) 4, 16, 36, 64, ____;
+Pode-se observar que a sequência representa os números formados por n^2, onde n é um número par;
+como temos 4 elementos na sequência até o momento, o próximo elemento será igual ao
+total de elementos da sequência mais 1, multiplicado por 2;
+Portanto, o próximo elemento da sequência 0, 1, 4, 9, 16, 25, 36, ____ é igual
+a ((4+1) * 2)^2 = 100;
+
+
+e) 1, 1, 2, 3, 5, 8, ____;
+Podemos encontrar o próximo elemento somando os dois valores anteriores, 1+1=2, 1+2=3, 2+3=5 ...
+Portanto, o próximo elemento da sequência  1, 1, 2, 3, 5, 8, ____; 
+é igual 5+8=13;
+
+
+f) 2, 10, 12, 16, 17, 18, 19, ____;
+Pode-se observar que a sequência representa os números que escrito por extenso,
+sempre começam com a letra D, Dois, Dez … Dezenove …;
+Portanto, o próximo número depois do dezenove (que é o último elemento da sequência),
+que começa com a letra D é duzentos;
+Logo, o próximo elemento da sequência é igual a 200;
+
+
+
+
+
+
+
+
+
+
+
