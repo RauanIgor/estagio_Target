@@ -33,7 +33,7 @@ ou seja, o caminhão estará a 71,2km de distância. Isso não é possível, com
 sem mudar o trajeto ou sofre desvios, a distâcia será a mesma, porém o caminhão precisa parar 10min, e vai demorar mais para chegar.
 
 PORTANTO, no momento em que os carros se cruzam a distância que ambos vão pecorrer até Ribeirão Preto é EQUIVALENTE,
-o que vai alterar é o tempo que ambos vai levar para chegar ao destino.
+o que vai alterar é o tempo que ambos vão levar para chegar ao destino.
 
 
 
